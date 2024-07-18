@@ -18,7 +18,7 @@ Our dataset is composed of $60$ different primary activity classes performed by 
 
 - **Motion uncertainty:** Denoted by $u \in \mathbb{R}^+$, where $\mathbb{R}^+$ represents the positive real numbers, measures the $L_2$ norm error of the end effector's position relative to its intended trajectory over time.
 
-The combination of ten actions, two robots performing these actions, and three velocity levels results in a total of $60$ unique primary classes. For primary each class, we have collected \textcolor{red}{$32$} repetitions. Each repetition spans $15$ seconds, during which the robot performs the activity with consistent variations in action, robot arm, and velocity, while incorporating motion uncertainty. This introduces deviations in each repetition as the robot writes on an imaginary plane, adding a realistic layer of complexity to the dataset. Figure~\ref{fig:colorful_uncertainty} shows the uncertainty in motion of all the repetitions in one the primary classes projected on a 2D imaginary plane.
+The combination of ten actions, two robots performing these actions, and three velocity levels results in a total of $60$ unique primary classes. For primary each class, we have collected $32$ repetitions. Each repetition spans $15$ seconds, during which the robot performs the activity with consistent variations in action, robot arm, and velocity, while incorporating motion uncertainty. This introduces deviations in each repetition as the robot writes on an imaginary plane, adding a realistic layer of complexity to the dataset. Figure~\ref{fig:colorful_uncertainty} shows the uncertainty in motion of all the repetitions in one the primary classes projected on a 2D imaginary plane.
 
 
 ## Examples
