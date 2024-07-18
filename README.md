@@ -21,6 +21,12 @@ Our dataset is composed of $60$ different primary activity classes performed by 
 The combination of ten actions, two robots performing these actions, and three velocity levels results in a total of $60$ unique primary classes. For primary each class, we have collected $32$ repetitions. Each repetition spans $15$ seconds, during which the robot performs the activity with consistent variations in action, robot arm, and velocity, while incorporating motion uncertainty. This introduces deviations in each repetition as the robot writes on an imaginary plane, adding a realistic layer of complexity to the dataset.
 
 
+<p align="center">
+<img src="resources/mnist_like_plots.png" alt="mnist_like_plots"
+title="mnist_like_plots" width="820" align="middle" />
+</p>
+
+
 ## Examples
 You can find the Python example notebooks in the [examples folder](examples) of this GitHub repository to help you get started to use the dataset.
 
