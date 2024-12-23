@@ -87,18 +87,18 @@ make
 ```
 
 
-### Synchronization & Central Monitor (TODO check everythong)
-We have used ROS2 for this part of the framework, the code can be found in the [monitor folder](monitor). Our ROS2 workspace is consist of the following nodes.
+### Synchronization & Central Monitor (TODO check everything)
+We have used ROS2 for this part of the framework. The code can be found in the [monitor folder](monitor). Our ROS2 workspace consists of the following nodes:
 
-- **csi_node.** which is responsible to receive CSI information from the module(s), timestamp them, and store them at the end.
+- **csi_node**: Responsible for receiving CSI information from the module(s), timestamping it, and storing it at the end.
 
-- **video_node.** which is responsible for receiving video frames from the module(s), timestamp them, and store them at the end.
+- **video_node**: Responsible for receiving video frames from the module(s), timestamping them, and storing them at the end.
 
-- **audio_node.** which is responsible for receiving audio signals from the module(s), timestamp them, and store them at the end.
+- **audio_node**: Responsible for receiving audio signals from the module(s), timestamping them, and storing them at the end.
 
-- **heartbeat_node.** This node serves as a syncronizer, where it sendes heartbeats to each node specifying the time that the nodes need to get the sensor data.
+- **heartbeat_node**: Serves as a synchronizer, sending heartbeats to each node to specify the time at which the nodes should collect sensor data.
 
-You can build the project using `colcon build` and then run each of the nodes using the following commands.
+You can build the project using `colcon build` and run each node using the following commands.
 
 ```bash
 ros2 run pack_wifi csi_node (TODO)
