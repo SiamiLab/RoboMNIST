@@ -87,21 +87,37 @@ make
 ```
 
 
-### Synchronization & Central Monitor (TODO check everything)
-We have used ROS2 for this part of the framework. The code can be found in the [monitor folder](monitor). Our ROS2 workspace consists of the following nodes:
+### Synchronization & Central Monitor
 
-- **csi_node**: Responsible for receiving CSI information from the module(s), timestamping it, and storing it at the end.
+This part of the framework uses ROS2, and the code is available in the [monitor folder](monitor). The `monitor` is a ROS2 workspace with three packages containing the following nodes:
 
-- **video_node**: Responsible for receiving video frames from the module(s), timestamping them, and storing them at the end.
+- **csi_node**: Receives CSI data from the module(s), timestamps it, and saves it.
 
-- **audio_node**: Responsible for receiving audio signals from the module(s), timestamping them, and storing them at the end.
+- **camera_node**: Handles video frames from the module(s), timestamps them, and saves them.
 
-- **heartbeat_node**: Serves as a synchronizer, sending heartbeats to each node to specify the time at which the nodes should collect sensor data.
+- **mic_node**: Collects audio signals from the module(s), timestamps them, and saves them.
 
-You can build the project using `colcon build` and run each node using the following commands.
+- **heartbeat_node**: Acts as a synchronizer, sending heartbeats to all nodes to indicate when they should collect sensor data at each timestep.
+
+Additionally, the `util` package does not include any nodes but contains the `params.yaml` file. This file allows you to configure data collection settings. The specific variables are explained in the file itself.
+
+You can build the project using `colcon build`. To run each node, use the following commands:
+
 
 ```bash
-ros2 run pack_wifi csi_node (TODO)
+ros2 run pack_wifi csi_node --ros-args --params-file /path/to/the/params/yaml/file
+```
+```bash
+ros2 run pack_camera camera_node --ros-args --params-file /path/to/the/params/yaml/file
+```
+```bash
+ros2 run pack_camera mic_node --ros-args --params-file /path/to/the/params/yaml/file
+```
+
+Finally, after all the nodes are running, start the heartbeat node:
+
+```bash
+ros2 run pack_wifi heartbeat_node --ros-args --params-file /path/to/the/params/yaml/file
 ```
 
 

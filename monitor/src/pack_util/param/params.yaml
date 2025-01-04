@@ -1,0 +1,21 @@
+heartbeat_node:
+  ros__parameters:
+    frequency: 30 # frequency parameter of all nodes should be the same
+    packet_num: 360
+    between_collection_delay: 6
+    collectors: ["camera_node", "csi_node"]
+csi_node:
+  ros__parameters:
+    frequency: 30 # frequency parameter of all nodes should be the same
+camera_node:
+  ros__parameters:
+    frequency: 30 # frequency parameter of all nodes should be the same
+    camera_num: 3
+    resolution0: 2560
+    resolution1: 720
+camera_show_node:
+  ros__parameters:
+    frequency: 30 # frequency parameter of all nodes should be the same
+    camera_num: 3
+    resolution0: 2560
+    resolution1: 720
