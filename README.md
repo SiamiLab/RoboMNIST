@@ -6,7 +6,7 @@ We introduce a novel dataset for multi-robot activity recognition (MRAR) using t
 https://github.com/user-attachments/assets/b5266bee-0ef5-4132-9270-546de9581254
 
 ## Dataset
-Please refer to [our paper TODO](http://TODO.com) for a detailed description of our dataset and where you can find the dataset files.
+Please refer to [our paper TODO](http://TODO.com) for a detailed description of our dataset and where you can find the dataset files. **We Provide the link to our paper after its acceptance**
 
 Our dataset is composed of $60$ different primary activity classes performed by the robotic arms, capturing activities through our sensor-rich modules. Our dataset encompasses four variations:
 
