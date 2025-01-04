@@ -145,7 +145,7 @@ ros2 run pack_wifi heartbeat_node --ros-args --params-file /path/to/the/params/y
 
 
 ## Our Paper
-If you use this dataset for your academic research, please cite our paper.
+If you use this dataset, code, or any descriptions from this repository, please cite our paper.
 
 ```
 @article{todo,
