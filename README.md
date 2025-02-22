@@ -6,7 +6,7 @@ We introduce a novel dataset for multi-robot activity recognition (MRAR) using t
 https://github.com/user-attachments/assets/b5266bee-0ef5-4132-9270-546de9581254
 
 ## Dataset
-Please refer to [our paper TODO](http://TODO.com) for a detailed description of our dataset and where you can find the dataset files. **We Provide the link to our paper after its acceptance**
+Please refer to [our paper](https://doi.org/10.1038/s41597-025-04636-2) for a detailed description of our dataset and where you can find the dataset files.
 
 Our dataset is composed of $60$ different primary activity classes performed by the robotic arms, capturing activities through our sensor-rich modules. Our dataset encompasses four variations:
 
@@ -148,14 +148,15 @@ ros2 run pack_wifi heartbeat_node --ros-args --params-file /path/to/the/params/y
 If you use this dataset, code, or any descriptions from this repository, please cite our paper.
 
 ```
-@article{todo,
-  title={},
-  author={},
-  journal={}, 
-  year={},
-  volume={}, 
-  number={}, 
-  pages={}
+@article{Behzad2025,
+  author = {Behzad, Kian and Zandi, Rojin and Motamedi, Elaheh and Salehinejad, Hojjat and Siami, Milad},
+  year = {2025},
+  title = {RoboMNIST: A Multimodal Dataset for Multi-Robot Activity Recognition Using WiFi Sensing, Video, and Audio},
+  journal = {Nature Scientific Data},
+  pages = {326},
+  volume = {12},
+  number = {1},
+  doi = {10.1038/s41597-025-04636-2},
 }
 ```
 
