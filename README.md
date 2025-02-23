@@ -6,7 +6,7 @@ We introduce a novel dataset for multi-robot activity recognition (MRAR) using t
 https://github.com/user-attachments/assets/b5266bee-0ef5-4132-9270-546de9581254
 
 ## Dataset
-<p  align="center"> <b>Link to our dataset: <a href="https://figshare.com/s/d6d5a27f0b05f18d4406">figshare.com/s/d6d5a27f0b05f18d4406</a><br>Link to our paper: <a href="https://doi.org/10.1038/s41597-025-04636-2">doi.org/10.1038/s41597-025-04636-2</a></b> </p>
+<p  align="center"> <b>Link to our dataset: <a href="https://doi.org/10.6084/m9.figshare.28179383">https://doi.org/10.6084/m9.figshare.28179383</a><br>Link to our paper: <a href="https://doi.org/10.1038/s41597-025-04636-2">doi.org/10.1038/s41597-025-04636-2</a></b> </p>
 
 Please refer to [our paper](https://doi.org/10.1038/s41597-025-04636-2) for a detailed description of our dataset and where you can find the dataset files.
 
