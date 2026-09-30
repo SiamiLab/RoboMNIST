@@ -1,0 +1,26 @@
+[
+  {
+    "trial_id": "22_Ar1_Vmed_Ac2/Rp21_Ac2_Vmed_Ar1_UNC292",
+    "digit": 2,
+    "arm": 1,
+    "speed_setting": "med",
+    "cube_page": "spacetime_cube.html",
+    "signal_page": "trial_viewer.html"
+  },
+  {
+    "trial_id": "35_Ar2_Vmed_Ac5/Rp37_Ac5_Vmed_Ar2_UNC264",
+    "digit": 5,
+    "arm": 2,
+    "speed_setting": "med",
+    "cube_page": "spacetime_cube_digit5.html",
+    "signal_page": "trial_viewer_digit5.html"
+  },
+  {
+    "trial_id": "08_Ar1_Vhigh_Ac8/Rp25_Ac8_Vhigh_Ar1_UNC147",
+    "digit": 8,
+    "arm": 1,
+    "speed_setting": "high",
+    "cube_page": "spacetime_cube_digit8.html",
+    "signal_page": "trial_viewer_digit8.html"
+  }
+]

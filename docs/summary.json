@@ -1,0 +1,25 @@
+{
+  "trials": 2158,
+  "conditions": 60,
+  "complete_trials": 2158,
+  "repeat_min": 32,
+  "repeat_max": 46,
+  "median_moving_speed_by_arm_and_setting_m_s": {
+    "arm_1_low": 0.2744,
+    "arm_1_med": 0.3128,
+    "arm_1_high": 0.3547,
+    "arm_2_low": 0.2762,
+    "arm_2_med": 0.3136,
+    "arm_2_high": 0.3549
+  },
+  "median_moving_time_by_setting_s": {
+    "low": 10.7331,
+    "med": 9.1001,
+    "high": 8.0664
+  },
+  "median_within_digit_arm_path_length_range_fraction_across_settings": 0.0194,
+  "moving_speed_threshold_m_s": 0.03,
+  "median_active_path_m": 3.0194,
+  "median_inactive_path_m": 0.0137,
+  "example_trial": "22_Ar1_Vmed_Ac2/Rp21_Ac2_Vmed_Ar1_UNC292"
+}
